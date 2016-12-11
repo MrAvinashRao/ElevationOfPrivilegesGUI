@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Elevations of Privileges</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
@@ -24,14 +25,31 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <div class="container-fluid">
-    	
+    <div class="container-fluid" id="game-container">
+        <div class="row">
+            <div class="col-xs-2"  align="center">
+                <div class="left-buttongroup">
+                    <p>
+                        <button class="btn btn-default" href="#" type="button">Skip Turn</button>
+                    </p>
+                    <p>
+                        <button class="btn btn-default" href="#" type="button">Forfeit</button>
+                    </p>
+                </div>
+                <div class="left-discardpile">
+                	<p>
+                		Discard Pile
+                	</p>
+                </div>
+            </div>
+            <div class="col-xs-8">Main</div>
+            <div class="col-xs-2">Right</div>
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
