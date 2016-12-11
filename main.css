@@ -69,7 +69,8 @@ body{
 .system-container .system .tile{
 	display: inline-block;
 	height: 100%;
-	width: 13%;
+	width: 14.2857%;
+	float: left;
 	border-right: 1px solid #adadad;
 }
 .system-container .system .tile:last-child{
@@ -105,7 +106,7 @@ body{
 	height: 85%;
 	margin:0px 10%;
 }
-.in-play-container .in-play .in-play-inner .card-set .card{
+.in-play-container .in-play .in-play-inner .card-set .card, .hand-container .card-set .card{
 	float: left;
 	height: 100%;
 	width: 50%;
@@ -119,4 +120,12 @@ body{
 }
 .main-panel .hand-container{
 	height: 30%;
+	width: 80%;
+	border:1px solid #adadad;
+}
+.main-panel .hand-container .card-set{
+	height: 85%;	
+}
+.hand-container .card-set .card{
+	width: 20%;
 }
