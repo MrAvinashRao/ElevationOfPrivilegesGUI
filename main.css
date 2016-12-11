@@ -17,19 +17,31 @@ html, body{
 	width:100%;
 	transform: translateY(-50%);
 }
-.left-discardpile{
+.left-discardpile, .right-deck{
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	padding: 0 15px;
-	height: 30%;
-	display: table;
+	height: 30%;	
 	margin-bottom: 10px;
+}
+.left-discardpile{
+	display: table;
 }
 .left-discardpile p{
 	display: table-cell;
 	vertical-align: middle;
 	border:1px solid #adadad;
 	border-radius: 5px;
+}
+
+.right-deck>div{
+	border:1px solid #adadad;
+	border-radius: 5px;	
+	height: 100%;
+}
+.right-score{
+	border: 1px solid #adadad;
+	height: 30%;
 }

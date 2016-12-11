@@ -32,7 +32,7 @@
     </nav>
     <div class="container-fluid" id="game-container">
         <div class="row">
-            <div class="col-xs-2"  align="center">
+            <div class="col-xs-2 left-panel" align="center">
                 <div class="left-buttongroup">
                     <p>
                         <button class="btn btn-default" href="#" type="button">Skip Turn</button>
@@ -42,13 +42,34 @@
                     </p>
                 </div>
                 <div class="left-discardpile">
-                	<p>
-                		Discard Pile
-                	</p>
+                    <p>
+                        Discard Pile
+                    </p>
                 </div>
             </div>
-            <div class="col-xs-8">Main</div>
-            <div class="col-xs-2">Right</div>
+            <div class="col-xs-8 main-panel">Main</div>
+            <div class="col-xs-2 right-panel">
+                <div class="right-score">
+                    <div class="heading" align="center">
+                        <span>
+                        	Score Card
+                    	</span>
+                    </div>
+                    <div class="body">
+                    	<span class="title">Player Name</span>
+                    	<ul class="playerList">
+                    		<li>Player 1</li>
+                    		<li>Player 2</li>
+                    	</ul>
+                    </div>
+                </div>
+                <div class="right-deck" align="center">                    
+                    <div class="body">
+                    <p>Deck</p>
+                    	<button class="btn btn-default" href="#" type="button">Draw Card</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
