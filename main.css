@@ -1,8 +1,12 @@
 html, body{
 	height: 100%;
 }
+body{
+	min-height: 720px;
+}
 #game-container{
 	height: calc(100% - 72px);
+	padding: 10px 0px;
 }
 #game-container>.row{
 	height: 100%;
@@ -23,8 +27,7 @@ html, body{
 	bottom: 0;
 	width: 100%;
 	padding: 0 15px;
-	height: 30%;	
-	margin-bottom: 10px;
+	height: 30%;		
 }
 .left-discardpile{
 	display: table;
@@ -43,5 +46,77 @@ html, body{
 }
 .right-score{
 	border: 1px solid #adadad;
+	height: 30%;
+}
+.main-panel{
+	border: 1px solid #adadad;
+	padding: 10px 0px;
+}
+.main-panel .system-container{
+	height: 20%;
+}
+.system-container .system{
+	border: 1px solid #adadad;
+	height: 100%;
+	width: 80%;
+}
+.system-container .system .header{
+	border-bottom: 1px solid #adadad;
+}
+.system-container .system .body{
+	height: calc(100% - 30px);
+}
+.system-container .system .tile{
+	display: inline-block;
+	height: 100%;
+	width: 13%;
+	border-right: 1px solid #adadad;
+}
+.system-container .system .tile:last-child{
+	border-right: 0;
+}
+.system-container .system .tile span{
+	display: inline-block;
+	margin-top: 40px;
+}
+.main-panel .in-play-container{
+	height: 50%;
+}
+.in-play-container .in-play{
+	height: 100%;
+	padding: 50px 0px;
+	width: 60%;
+	display: inline-block;
+}
+.in-play-container .attack-inner{
+	display: inline-block;
+	height: 100%;
+	padding: 90px 0px;
+	float: left;
+	width: 18%;
+}
+.in-play-container .in-play .in-play-inner{
+	float:left;
+	width:78%;
+	height: 100%;
+	border: 1px solid #adadad;
+}
+.in-play-container .in-play .in-play-inner .card-set{
+	height: 85%;
+	margin:0px 10%;
+}
+.in-play-container .in-play .in-play-inner .card-set .card{
+	float: left;
+	height: 100%;
+	width: 50%;
+	padding-top: 50px;
+	max-width: 200px;
+	display: inline-block;
+	border:1px solid #adadad;
+}
+.in-play-container .in-play .in-play-inner .footer{
+	padding-top: 5px;
+}
+.main-panel .hand-container{
 	height: 30%;
 }

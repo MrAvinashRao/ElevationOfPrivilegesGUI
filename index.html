@@ -13,7 +13,6 @@
 <body>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -23,12 +22,9 @@
                 </button>
                 <a class="navbar-brand" href="#">Brand</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
     <div class="container-fluid" id="game-container">
         <div class="row">
@@ -47,7 +43,65 @@
                     </p>
                 </div>
             </div>
-            <div class="col-xs-8 main-panel">Main</div>
+            <div class="col-xs-8 main-panel" align="center">
+                <div class="row system-container">
+                    <div class="system">
+                        <div class="header">
+                            <p>System</p>
+                        </div>
+                        <div class="body">
+                            <div class="tile">
+                                <span>1</span>
+                            </div>
+                            <div class="tile">
+                                <span>2</span>
+                            </div>
+                            <div class="tile">
+                                <span>3</span>
+                            </div>
+                            <div class="tile">
+                                <span>4</span>
+                            </div>
+                            <div class="tile">
+                                <span>5</span>
+                            </div>
+                            <div class="tile">
+                                <span>6</span>
+                            </div>
+                            <div class="tile">
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row in-play-container">
+                    <div class="in-play">
+                        <div class="in-play-inner">
+                            <div class="card-set">
+                            	<div class="card">
+                            		<p class="name">Card-1 Name</p>
+                            		<p>
+                            			<button class="btn btn-default" href="#" type="button">Description</button>
+                            		</p>
+                            	</div>
+                            	<div class="card">
+                            		<p class="name">Card-2 Name</p>
+                            		<p>
+                            			<button class="btn btn-default" href="#" type="button">Description</button>
+                            		</p>
+                            	</div>
+                            </div>
+                            <div class="footer">
+                            	Card in Play
+                            </div>
+                        </div>
+                        <div class="attack-inner">
+                            <button class="btn btn-default" href="#" type="button">Attack</button>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="row hand-container">3</div>
+            </div>
             <div class="col-xs-2 right-panel">
                 <div class="right-score">
                     <div class="heading" align="center">
@@ -56,17 +110,17 @@
                     	</span>
                     </div>
                     <div class="body">
-                    	<span class="title">Player Name</span>
-                    	<ul class="playerList">
-                    		<li>Player 1</li>
-                    		<li>Player 2</li>
-                    	</ul>
+                        <span class="title">Player Name</span>
+                        <ul class="playerList">
+                            <li>Player 1</li>
+                            <li>Player 2</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="right-deck" align="center">                    
+                <div class="right-deck" align="center">
                     <div class="body">
-                    <p>Deck</p>
-                    	<button class="btn btn-default" href="#" type="button">Draw Card</button>
+                        <p>Deck</p>
+                        <button class="btn btn-default" href="#" type="button">Draw Card</button>
                     </div>
                 </div>
             </div>
